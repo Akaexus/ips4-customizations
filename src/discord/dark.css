@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap&subset=latin-ext");
+h1, h2, h3, h4 {
+  color: #fff;
+}
+
+.ipsApp {
+  font-family: Source Sans Pro, Open Sans, Roboto, Arial, Helvetica, sans-serif;
+  background: #36393f;
+  color: #949494;
+}
+.ipsApp a {
+  color: #949494;
+}
+
+.ipsBox[data-controller="core.front.profile.main"] {
+  background: transparent !important;
+}
+
+.ipsAreaBackground {
+  background: transparent;
+}
+
+main#ipsLayout_body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+main#ipsLayout_body > #ipsLayout_contentArea > #ipsLayout_contentWrapper > nav:first-of-type {
+  display: none;
+}
+main#ipsLayout_body > #ipsLayout_contentArea > #ipsLayout_contentWrapper > #ipsLayout_mainArea > .ipsBox {
+  border: none;
+}
+
+.ipsNavBar_primary:not(.ipsNavBar_noSubBars) > ul:before {
+  background: none;
+}
+.ipsNavBar_primary > ul > li.ipsNavBar_active > a {
+  color: #fff !important;
+  background: #42464d;
+}
+
+.ipsNavBar_secondary {
+  background: transparent;
+}
+.ipsNavBar_secondary > li:hover a {
+  color: #fff !important;
+}
+
+.ipsCoverPhoto_container > img.ipsCoverPhoto_photo {
+  top: 0;
+}
+
+#ipsLayout_header a {
+  color: #949494;
+}
+#ipsLayout_header > header {
+  background: #2f3136;
+}
+#ipsLayout_header nav {
+  background: #36393f;
+}
+
+.ipsTabs {
+  border: none;
+  background: #6b81ca;
+}
+.ipsTabs > ul > li > a {
+  color: #fff;
+}
+.ipsTabs > ul > li > a.ipsTabs_activeItem {
+  background: #36393f;
+}
+.ipsTabs > ul > li > a:hover {
+  color: inherit;
+}
+
+#elProfileTabs_content {
+  background: #36393f;
+}
+#elProfileTabs_content > .ipsTabs_panel {
+  background: transparent;
+}
+#elProfileTabs_content .ipsAreaBackground, #elProfileTabs_content .ipsAreaBackground_reset {
+  background: transparent;
+}
+#elProfileTabs_content .ipsType_richText {
+  color: #949494;
+}
+#elProfileTabs_content .ipsComposeArea_dummy {
+  background: #202225;
+}
+#elProfileTabs_content .ipsStreamItem .ipsStreamItem_title a {
+  color: #fff;
+}
+#elProfileTabs_content .ipsStreamItem .ipsStreamItem_header .ipsStreamItem_contentType {
+  color: #fff;
+  background: #6b81ca;
+  border-color: transparent;
+}
+#elProfileTabs_content .ipsBox {
+  background: #42464d;
+  border: none;
+}
+#elProfileTabs_content .ipsBox > .ipsType_sectionTitle {
+  background: transparent;
+  color: #949494;
+  font-weight: bold;
+}
+#elProfileTabs_content .ipsBox .ipsType_light {
+  color: #949494;
+}
+#elProfileTabs_content .ipsBox a {
+  font-weight: bold;
+  color: #949494;
+}
+#elProfileTabs_content .ipsType_pageTitle {
+  color: #fff;
+}
+#elProfileTabs_content .character {
+  border-color: #6b81ca;
+}
+#elProfileTabs_content .character .ipsBadge.ipsBadge_positive {
+  background: #6b81ca;
+}
+#elProfileTabs_content .character .positive {
+  color: #6b81ca;
+}
+
+.ipsButton_light {
+  background: #6b81ca !important;
+  color: #fff !important;
+}
+.ipsButton_overlaid {
+  background: #6b81ca !important;
+  opacity: 1 !important;
+}
+.ipsButton_overlaid a {
+  color: #949494 !important;
+}
+
+.ipsUserPhoto {
+  border: none;
+  background: none;
+}
+
+.ipsOnlineStatus_online {
+  color: #43b581;
+}
+
+#elSearch {
+  background: #202225;
+}
+#elSearch > form > input {
+  color: #949494;
+}
+#elSearch > form > .cSearchSubmit {
+  color: #6b81ca;
+}
+
+#elProfileStats {
+  background: #36393f;
+}
+#elProfileStats > .ipsList_inline > li > h4 {
+  color: #949494;
+}
+
+div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn {
+  background: #2f3136;
+}
+div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn > .ipsPad > .ipsLeaderboard_trophy_1 {
+  background: #f2d388;
+}
+div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn > .ipsPad > .ipsLeaderboard_trophy_1 a {
+  color: #704926;
+}
+div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn > .ipsPad > .cProfileSidebarBlock:not(.ipsLeaderboard_trophy_1) {
+  border: none;
+  background: #36393f;
+}
+div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn > .ipsPad > .cProfileSidebarBlock:not(.ipsLeaderboard_trophy_1) > a .cProfileRepScore {
+  background: #6b81ca;
+  color: #fff;
+}
+div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn > .ipsPad > .cProfileSidebarBlock:not(.ipsLeaderboard_trophy_1) > a .cProfileRepScore h2 {
+  color: #fff;
+}
+div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn > .ipsPad > .cProfileSidebarBlock:not(.ipsLeaderboard_trophy_1) > #elWarningInfo h2 {
+  color: #fff;
+}
+div[data-role=profileContent] > .ipsColumns section {
+  background: #36393f;
+}
+div[data-role=profileContent] > .ipsColumns section .ipsAreaBackground_light {
+  background: #42464d;
+}
+
+.ipsWidget > .ipsWidget_title {
+  background: transparent !important;
+  color: #fff !important;
+}
+.ipsWidget .ipsAreaBackground_light {
+  background: transparent;
+}
+
+.ipsDataList > .ipsDataItem {
+  border-color: #474a4f;
+}
+
+.ipsBreadcrumb, footer {
+  background: #2f3136;
+}
+
+.ipsBreadcrumb {
+  margin: 0 !important;
+  padding: 1rem !important;
+  opacity: 1 !important;
+}
+.ipsBreadcrumb a {
+  color: #949494 !important;
+}
+.ipsBreadcrumb ul[data-role=breadcrumbList] > li:last-of-type > a {
+  color: #fff !important;
+}
+
+footer {
+  background: #2f3136 !important;
+  margin: 0 !important;
+}
+footer a, footer p {
+  color: inherit !important;
+}
+footer #elFooterLinks {
+  margin: 0;
+}
+
+#elMobileNav {
+  background: #6b81ca;
+}
+
+.ipsType_break[data-ipshover] {
+  color: #fff;
+  text-transform: lowercase;
+}
+.ipsType_break[data-ipshover]:before {
+  content: "@";
+}
+
+/*# sourceMappingURL=dark.css.map */
