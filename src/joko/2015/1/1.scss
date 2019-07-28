@@ -1,0 +1,153 @@
+$semiTransparent: rgba(30, 30, 40, .5);
+$fontColorMid: rgba(255, 255, 255, .7);
+$fontColor: #fff;
+
+.ipsApp {
+  background: url('https://i.imgur.com/HMHkxHe.jpg') no-repeat fixed 50% 50% / cover;
+  font-family: 'Open Sans', 'Roboto', 'Arial', 'Helvetica', sans-serif;
+}
+
+#ipsLayout_header {
+  > header, > nav {
+    background: transparent;
+  }
+}
+
+.ipsNavBar_primary {
+  > ul {
+    > li {
+      > a {
+        &, &:hover {
+          background: transparent;
+        }
+      }
+      &.ipsNavBar_active {
+        > a {
+          background: transparent;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  &:not(.ipsNavBar_noSubBars) {
+    >ul {
+      &:before {
+        background: transparent;
+      }
+    }
+  }
+}
+
+.ipsNavBar_secondary {
+  > li {
+    > a {
+      color: $fontColorMid;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  background: transparent;
+}
+
+#ipsLayout_mainArea {
+  > .ipsBox {
+    border: none;
+    background: none;
+    > header {
+      > #elProfileHeader {
+        padding-top: 25px;
+        height: 100px;
+        background: none;
+        img.ipsCoverPhoto_photo {
+          display: none;
+        }
+      }
+      > #elProfileStats {
+        background: $semiTransparent;
+      }
+    }
+    > div[data-role='profileContent'] {
+      background: $semiTransparent;
+      > .ipsColumns {
+        > #elProfileInfoColumn {
+          background: transparent;
+          > .ipsPad {
+            > .cProfileSidebarBlock.ipsLeaderboard_trophy_1 {
+              background: #f2d388;
+            }
+            > .cProfileSidebarBlock.ipsBox.ipsSpacer_bottom {
+              background: none;
+              border: none;
+              p {
+                display: none
+              }
+            }
+          }
+        }
+        > section {
+          > .ipsTabs, #elProfileTabs_content {
+            background: $semiTransparent;
+          }
+          > #elProfileTabs_content {
+            .ipsType_blendLinks {
+              color: $fontColorMid;
+            }
+            .ipsAreaBackground {
+              &, &_light {
+                background: $semiTransparent;
+              }
+              &_reset {
+                background: none;
+              }
+            }
+            .ipsType_richText {
+              color: $fontColorMid;
+            }
+            > .ipsTabs_panel {
+              background: transparent;
+              .ipsType_pageTitle {
+                color: #fff;
+              }
+              /* PANEL POSTACI */
+              .character {
+                border: none;
+                color: $fontColorMid;
+                background: $semiTransparent;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ipsWidget {
+  > .ipsWidget_title {
+    color: #fff !important;
+    background: $semiTransparent !important;
+  }
+  > .ipsWidget_inner {
+    color: $fontColorMid;
+    > .ipsDataList {
+      > .ipsDataItem {
+        border: none;
+        strong {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.ipsBreadcrumb, footer {
+  &, a, p {
+    color: $fontColorMid !important;
+  }
+}
+
+.ipsUserPhoto {
+  background: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .2) inset;
+}

@@ -1,0 +1,164 @@
+body {
+  background: #d8dde8;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#ipsLayout_body {
+  background: #fff;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+}
+#ipsLayout_body .ipsAreaBackground {
+  background: transparent;
+}
+
+#ipsLayout_header > header {
+  background: #204066 url(https://i.imgur.com/ypzfGWi.png) repeat-x;
+  padding-bottom: 35px;
+}
+#ipsLayout_header nav {
+  background: #323232 url(https://i.imgur.com/rQEWsDu.png) repeat-x bottom;
+}
+
+.ipsNavBar_secondary {
+  font-size: 13px;
+  background: transparent;
+}
+.ipsNavBar_secondary > li > a {
+  color: #8a8a8a;
+}
+.ipsNavBar_secondary > li > a:hover {
+  color: #ffffff;
+}
+
+.ipsNavBar_primary {
+  top: -32px;
+}
+.ipsNavBar_primary > ul > li > a {
+  background: #1c3b5f;
+  font-size: 13px !important;
+  padding: 6px 15px 8px;
+  border-radius: 0;
+}
+
+.ipsNavBar_primary:not(.ipsNavBar_noSubBars) > ul::before {
+  background: transparent;
+  color: #8a8a8a;
+}
+
+#elSearchWrapper {
+  margin-top: 2px;
+}
+#elSearchWrapper #elSearch {
+  border-radius: 3px 4px 4px 3px;
+  padding: 4px 0 4px 10px;
+  overflow: hidden;
+}
+#elSearchWrapper #elSearch button.cSearchSubmit {
+  color: #fff;
+  height: 28px;
+  margin-top: -5px;
+}
+
+.ipsTabs {
+  background: url("https://i.imgur.com/Z0tismT.png") repeat-x 50% 50%/auto 100%;
+  padding: 10px 10px 11px;
+  border-radius: 4px 4px 0 0;
+  box-shadow: inset 0px 1px 0 #528cbc;
+  border-width: 1px 1px 0 1px;
+  border-color: #316897;
+  border-style: solid;
+}
+.ipsTabs.ipsTabs_stretch [role=tablist] > li {
+  display: inline-block;
+}
+.ipsTabs_item {
+  opacity: 0.5;
+  line-height: 1;
+  background: none;
+  font-size: 11px;
+  text-shadow: 0px 1px 0px #0d273e;
+  padding: 4px 10px;
+}
+.ipsTabs_item:hover {
+  opacity: 1;
+  background: none;
+}
+.ipsTabs_activeItem {
+  opacity: 1;
+  background: #244156;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.cProfileRepScore {
+  border-radius: 3px;
+  padding: 10px;
+}
+.cProfileRepScore h2.ipsType_minorHeading {
+  display: none;
+}
+.cProfileRepScore_positive {
+  background: #6f8f52;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cProfileRepScore + p {
+  display: none;
+}
+
+.ipsWidget.ipsWidget_vertical .ipsWidget_title, .ipsWidget.ipsWidget_horizontal .ipsWidget_title {
+  font: normal 14px helvetica, arial, sans-serif;
+  padding: 8px 10px;
+  background: #DBE2EC;
+  color: #204066;
+  text-transform: none;
+}
+
+.ipsBox {
+  background: #fcfcfc;
+  border-radius: 0;
+  border: none;
+}
+
+#elProfileStats {
+  background: transparent;
+  color: inherit;
+}
+#elProfileStats .ipsButton {
+  background: #212121 url(https://i.imgur.com/GI0ahxS.png) repeat-x top;
+  border: 1px solid #212121;
+  border-width: 1px 1px 0 1px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #5c5c5c, 0px 2px 3px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 -1px 0 #191919;
+  font: 300 12px/1.3 Helvetica, Arial, sans-serif;
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+}
+#elProfileStats .ipsButton i {
+  display: none;
+}
+
+.ipsUserPhoto > img {
+  border-radius: 0px;
+  border: 1px solid #d5d5d5;
+  background: #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 1px;
+}
+
+.cProfileSidebarBlock.ipsLeaderboard_trophy_1 {
+  background: #f3e3e6;
+  border: 1px solid #e599aa;
+  color: #80001c;
+  padding: 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=legacy.css.map */

@@ -1,0 +1,113 @@
+.ipsApp {
+  background: url("https://i.imgur.com/HMHkxHe.jpg") no-repeat fixed 50% 50%/cover;
+  font-family: "Open Sans", "Roboto", "Arial", "Helvetica", sans-serif;
+}
+
+#ipsLayout_header > header, #ipsLayout_header > nav {
+  background: transparent;
+}
+
+.ipsNavBar_primary > ul > li > a, .ipsNavBar_primary > ul > li > a:hover {
+  background: transparent;
+}
+.ipsNavBar_primary > ul > li.ipsNavBar_active > a {
+  background: transparent;
+  color: #ffffff;
+}
+.ipsNavBar_primary:not(.ipsNavBar_noSubBars) > ul:before {
+  background: transparent;
+}
+
+.ipsNavBar_secondary {
+  background: transparent;
+}
+.ipsNavBar_secondary > li > a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.ipsNavBar_secondary > li > a:hover {
+  color: #fff;
+}
+
+#ipsLayout_mainArea > .ipsBox {
+  border: none;
+  background: none;
+}
+#ipsLayout_mainArea > .ipsBox > header > #elProfileHeader {
+  padding-top: 25px;
+  height: 100px;
+  background: none;
+}
+#ipsLayout_mainArea > .ipsBox > header > #elProfileHeader img.ipsCoverPhoto_photo {
+  display: none;
+}
+#ipsLayout_mainArea > .ipsBox > header > #elProfileStats {
+  background: rgba(30, 30, 40, 0.5);
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] {
+  background: rgba(30, 30, 40, 0.5);
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn {
+  background: transparent;
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn > .ipsPad > .cProfileSidebarBlock.ipsLeaderboard_trophy_1 {
+  background: #f2d388;
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn > .ipsPad > .cProfileSidebarBlock.ipsBox.ipsSpacer_bottom {
+  background: none;
+  border: none;
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > #elProfileInfoColumn > .ipsPad > .cProfileSidebarBlock.ipsBox.ipsSpacer_bottom p {
+  display: none;
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section > .ipsTabs, #ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section #elProfileTabs_content {
+  background: rgba(30, 30, 40, 0.5);
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section > #elProfileTabs_content .ipsType_blendLinks {
+  color: rgba(255, 255, 255, 0.7);
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section > #elProfileTabs_content .ipsAreaBackground, #ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section > #elProfileTabs_content .ipsAreaBackground_light {
+  background: rgba(30, 30, 40, 0.5);
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section > #elProfileTabs_content .ipsAreaBackground_reset {
+  background: none;
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section > #elProfileTabs_content .ipsType_richText {
+  color: rgba(255, 255, 255, 0.7);
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section > #elProfileTabs_content > .ipsTabs_panel {
+  background: transparent;
+  /* PANEL POSTACI */
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section > #elProfileTabs_content > .ipsTabs_panel .ipsType_pageTitle {
+  color: #fff;
+}
+#ipsLayout_mainArea > .ipsBox > div[data-role=profileContent] > .ipsColumns > section > #elProfileTabs_content > .ipsTabs_panel .character {
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(30, 30, 40, 0.5);
+}
+
+.ipsWidget > .ipsWidget_title {
+  color: #fff !important;
+  background: rgba(30, 30, 40, 0.5) !important;
+}
+.ipsWidget > .ipsWidget_inner {
+  color: rgba(255, 255, 255, 0.7);
+}
+.ipsWidget > .ipsWidget_inner > .ipsDataList > .ipsDataItem {
+  border: none;
+}
+.ipsWidget > .ipsWidget_inner > .ipsDataList > .ipsDataItem strong {
+  color: #fff;
+}
+
+.ipsBreadcrumb, .ipsBreadcrumb a, .ipsBreadcrumb p, footer, footer a, footer p {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.ipsUserPhoto {
+  background: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2) inset;
+}
+
+/*# sourceMappingURL=1.css.map */
