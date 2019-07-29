@@ -1,0 +1,322 @@
+/************************************************************************/
+/*    Profil by Sniper      29/07/2019                                  */
+/*    Wzorowany na podstawie proflu Joko                                */
+/************************************************************************/
+/*Imports*/ 
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap");
+/*********/
+/* Variables */ 
+/*************/ 
+html, body {
+  background: url(https://i.imgur.com/4mnHfXu.jpg) no-repeat top fixed;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #b7d4f7;
+}
+
+#ipsLayout_header header {
+  background-color: transparent;
+}
+#ipsLayout_header nav {
+  background: transparent;
+}
+
+.ipsNavBar_primary:not(.ipsNavBar_noSubBars) > ul:before {
+  background: transparent;
+}
+
+.ipsApp .ipsHide,
+.ipsNavBar_primary > ul > li.ipsNavBar_active > a {
+  background: #1e1e1e;
+  color: white;
+}
+
+.ipsMenu_sep {
+  margin: 0.5px;
+}
+
+.ipsNavBar_secondary > li > a {
+  color: white;
+}
+
+.ipsCoverPhoto_container {
+  display: none;
+}
+
+.ipsBox:not(.ipsBox_transparent):not(.ipsModerated) {
+  border: none;
+  background: transparent;
+}
+
+#elProfileHeader.cProfileHeaderMinimal {
+  padding: 15px;
+}
+
+header,
+#elProfileHeader {
+  background: transparent !important;
+}
+
+.ipsUserPhoto {
+  background: none !important;
+}
+
+.ipsApp .ipsButton_light,
+.ipsButton_fullWidth {
+  background-color: #768D3D;
+  color: white;
+}
+
+.cProfileRepScore_positive {
+  background-color: #768D3D;
+  border-radius: 0px;
+}
+
+.ipsApp .ipsButton_overlaid,
+.ipsApp .ipsButton_important,
+.ipsButtonBar .ipsButtonRow li > a,
+.ipsButtonBar .ipsButtonRow li > button,
+.ipsButtonBar .ipsButtonRow li > span {
+  background-color: #768D3D;
+}
+
+.ipsApp .ipsButton_veryLight {
+  background-color: #768D3D;
+  border: none;
+  color: white;
+}
+
+html[dir=ltr] #elEditProfile :hover {
+  background: #768D3D;
+}
+
+.ipsComment:not(.ipsModerated) .ipsComment_header, .ipsAreaBackground_reset {
+  border: none;
+  background: #2b2b2b;
+}
+
+.ipsComment .ipsType_richText,
+.ipsType_richText > p:last-child,
+.ipsType_richText {
+  color: white;
+}
+
+.ipsTabs,
+.ipsPad_double, .ipsTabs_panel, .ipsColumns.ipsColumns_noSpacing > .ipsColumn:not(.ipsPad),
+#elProfileActivityOverview .ipsStreamItem, #elSearchExpanded, #elSearchWrapper.cSearchExpanded,
+.ipsAreaBackground_light, #elUserContent .ipsStreamItem, form, .ipsToolList,
+.ipsClear, .ipsApp .ipsDataItem_selected, .ipsAreaBackground, .ipsMenu_footerBar, #elMobileNav {
+  background: #2b2b2b;
+}
+
+.ipsQuote {
+  background: #2b2b2b;
+  color: white;
+}
+
+.cke_wysiwyg_frame, .cke_wysiwyg_div {
+  background: #2b2b2b !important;
+  box-shadow: 1px 1px 10px black;
+}
+
+.ipsPageHead_barText,
+.ipsPageHead_barText_small,
+.ipsMenu_headerBar {
+  background: #222;
+  opacity: 0.9;
+}
+
+.ipsWidget.ipsWidget_vertical .ipsWidget_title,
+.ipsWidget.ipsWidget_horizontal .ipsWidget_title,
+.ipsApp .ipsSpacer_bottom, .ipsFieldRow_section,
+.ipsDialog_title, .ipsType_sectionTitle,
+.ipsSideMenu_item:not(.ipsSideMenu_itemActive) a:hover,
+a.ipsSideMenu_item:not(.ipsSideMenu_itemActive):hover,
+span.ipsSideMenu_item:not(.ipsSideMenu_itemActive):hover {
+  background: #1e1e1e;
+}
+
+ul:not(.ipsMenu_keyNav) .ipsMenu_item:not(.ipsMenu_itemClicked):not(.ipsMenu_itemDisabled) a:not(.ipsMenu_itemInline):hover, .ipsMenu_item[data-selected] a, .ipsMenu_item[data-selected] span,
+.ipsMenu_item.ipsMenu_hover {
+  background: #424040;
+}
+
+.ipsQuote_citation {
+  background: #1e1e1e;
+  color: white;
+}
+
+.ipsDataItem {
+  border-style: none;
+}
+
+.ipsType_sectionHead,
+.ipsStreamItem_snippet .ipsType_richText,
+.ipsMenu_item > a:not(.ipsMenu_itemInline),
+.ipsType_pageTitle, .fa-caret-down:before {
+  color: white;
+}
+
+#elSearch {
+  border-radius: 0px;
+  width: 257px;
+  border: none;
+}
+
+.ipsWidget.ipsWidget_vertical .ipsWidget_title,
+.ipsWidget.ipsWidget_horizontal .ipsWidget_title,
+.ipsApp .ipsSpacer_bottom, .ipsFieldRow_section,
+.ipsDialog_title, .ipsMenu_title {
+  color: white;
+  background-color: #1e1e1e;
+}
+
+#elSearchExpanded .ipsSideMenu_list, .ipsMenu_item > a:not(.ipsMenu_itemInline) {
+  background: #2b2b2b;
+}
+
+#elSearchWrapper.cSearchExpanded {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+#elSearch input[type=search] {
+  width: 200px;
+}
+
+.ipsNavBar_primary > ul > li > a {
+  background: none;
+}
+
+.ipsBreadcrumb > ul > li > a {
+  color: white !important;
+}
+
+.cUserHovercard, .ipsComment_subComments .ipsComment[data-role=replyComment] .ipsComposeArea_editor {
+  background: #1e1e1e;
+}
+
+.ipsBreadcrumb.ipsBreadcrumb_top, .ipsBreadcrumb.ipsBreadcrumb_bottom {
+  color: white !important;
+  opacity: 1;
+}
+
+.ipsAreaBackground_light .ipsType_center .ipsPad {
+  background: #1e1e1e;
+}
+
+.ipsPad_half .ipsBox, .ipsColumn_wide {
+  background: #2b2b2b;
+}
+
+.ipsComposeArea_withPhoto .ipsComposeArea_editor {
+  box-shadow: 1px 1px 10px black;
+}
+
+.ipsDialog_title ~ .ipsHr {
+  display: none;
+}
+
+.ipsDialog_title {
+  padding: 5px;
+}
+
+.ipsType_normal:not(.ipsType_richText) {
+  background: transparent;
+}
+
+.ipsMenu_item > span:not(.ipsMenu_itemInline) {
+  background-color: white;
+  color: white;
+}
+
+.ipsSpacer_bottom, .ipsClear {
+  border: solid #353535;
+  border-width: 1px 0 1px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.ipsButton_split > .ipsButton,
+.ipsButton_split > li > .ipsButton {
+  border-radius: 0px;
+}
+
+.profileContent {
+  padding: 3px 10px;
+  line-height: 120%;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+}
+
+.ipsBox {
+  background: transparent;
+}
+
+.ipsColumn_wide {
+  border: solid #353535;
+  border-width: 1px 0 1px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  padding: 0px;
+}
+
+.ipsSideMenu_list {
+  color: white !important;
+}
+
+.ipsTabs_activeItem {
+  background: #768D3D;
+  font-weight: 500;
+  color: white;
+}
+
+#ipsLayout_footer a, #ipsLayout_footer p,
+.ipsQuote .ipsQuote_citation a {
+  color: white;
+}
+
+.character[data-v-ed81f1fa], .cClubCard {
+  border: 2px solid #768D3D !important;
+  border-radius: 5px;
+}
+
+.ipsPageHeader h1 {
+  padding: 12px;
+}
+
+.ipsBadge, .ipsBadge.ipsBadge_normal {
+  height: 25px;
+  padding-top: 3px;
+}
+
+.ipsList_inline, .ipsList_reset {
+  color: #ababab;
+}
+
+.ipsFaded.ipsFaded_more {
+  opacity: 0.8;
+}
+
+#elSearchExpanded .ipsMenu_title {
+  background: #1e1e1e;
+}
+
+/*Responsive*/
+@media screen and (max-width: 767px) {
+  .ipsTabs {
+    border: none;
+  }
+
+  .ipsResponsive_showPhone.ipsResponsive_block {
+    background: transparent;
+  }
+
+  .ipsSideMenu.ipsSideMenu_open, .ipsSideMenu:target {
+    background: #2b2b2b;
+  }
+}
+
+/*# sourceMappingURL=1.css.map */
